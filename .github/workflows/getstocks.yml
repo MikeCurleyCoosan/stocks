@@ -3,7 +3,7 @@ name: Run Stocks Script and Push Changes
 on:
   schedule:
     # Runs daily at 10:00 AM UTC
-    - cron: '0 10 * * *'
+    #- cron: '0 10 * * *'
   workflow_dispatch:
 
 permissions:
